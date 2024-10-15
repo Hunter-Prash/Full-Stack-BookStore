@@ -5,11 +5,11 @@ function Cards({item}) {
     return (
         <>
             <div>
-                <div className="card bg-base-100 w-96 h-[470px]  shadow-xl ">
+                <div className="card bg-base-100 w-96 h-[470px]  shadow-xl hover:scale-105 duration-200 ">
                     <figure>
                         <img
                             src="https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1728866958~exp=1728870558~hmac=5dd87343a2d92bd89ab51065c8160056251a577261907b803a39ed5d05d7300a&w=740"
-                            alt="Shoes" />
+                            alt="Books" />
                     </figure>
                     <div className="card-body">
                         <h2 className="card-title">
