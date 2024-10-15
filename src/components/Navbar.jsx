@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
 
@@ -21,10 +22,10 @@ function Navbar() {
     const navItems=(
         <>
                             <li>
-                    <a>Home</a>
+                    <Link to='/'>Home</Link>
                 </li>
                 <li>
-                    <a>Course</a>
+                    <Link to="/course">Course</Link>
                 </li>
                 <li>
                     <a>Contact</a>
@@ -37,7 +38,7 @@ function Navbar() {
 
   return (
     <>
-      <div className={`max-w-screen 2xl container mx-auto md:px-20 px-4 fixed top-0 left-0 right-0 ${sticky ? 'bg-base-100 shadow-md' : ''}`}>
+      <div className={`max-w-screen 2xl container mx-auto md:px-20 px-4 z-10 fixed top-0 left-0 right-0 ${sticky ? 'bg-base-100 shadow-md' : ''}`}>
         <div className="navbar bg-base-100">
           <div className="navbar-start">
             <div className="dropdown">
