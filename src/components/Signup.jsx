@@ -31,6 +31,7 @@ function Signup() {
                   <button className="bg-pink-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">Sign Up</button>
                   <a className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800 cursor-pointer   " onClick={()=>document.getElementById('my_modal_3').showModal()}>Already have an account?</a>
                   
+                  {/* importing the login component over here and using it*/}
                     <Login />
                   
                   

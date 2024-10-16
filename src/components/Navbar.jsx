@@ -96,6 +96,7 @@ function Navbar() {
           <div>
             
             <a className="btn ml-4 hover:bg-pink-600 scale-105 duration-150 text-white" onClick={()=>document.getElementById('my_modal_3').showModal()}>Login</a>
+            {/* importing the login component over here and using it*/}
             <Login/>
             
           </div>
