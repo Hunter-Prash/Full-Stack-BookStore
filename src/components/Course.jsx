@@ -11,7 +11,7 @@ function Course() {
             <div  className='flex flex-col gap-5 items-center justify-center py-10 mt-11 z-10'>
 
                 <h1 className='text-2xl font-semibold md:text-4xl'>We are glad to have you <span className='text-pink-600'>here</span></h1>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex deserunt mollit anim id est laborum. Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit."</p>
+                <p>"Welcome to our course catalog, where you can explore a wide range of courses to enhance your skills and knowledge. Browse through our collection of courses, and discover the perfect fit for your learning needs."</p>
                 <Link to='/'>
                 <button className="btn btn-secondary">Back</button>
                 </Link>

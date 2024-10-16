@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Login from "./Login";
 
 function Navbar() {
 
@@ -93,7 +94,10 @@ function Navbar() {
           </div>
           
           <div>
-            <a className="btn ml-4">Login</a>
+            
+            <a className="btn ml-4 hover:bg-pink-600 scale-105 duration-150 text-white" onClick={()=>document.getElementById('my_modal_3').showModal()}>Login</a>
+            <Login/>
+            
           </div>
         </div>
       </div>

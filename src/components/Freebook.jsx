@@ -49,7 +49,7 @@ function Freebook() {
       <div className=' max-w-screen-2xl container mx-auto md:px-20 px-4'>
         <div className='m-[30px] py-3' >
           <h1 className='font-bold text-xl pb-2 text-pink-600'>Free Books</h1>
-          <p>fsdgf gfisdgfisgtfs iuysdgfgsdiyfgew vfbidgf sf fgisdgf isdgfiudg </p>
+          <p>Discover a wide range of free books, from classics to contemporary bestsellers, all available for you to read and enjoy. </p>
         </div>
 
         <div>
